@@ -1,6 +1,6 @@
 {
-  "name": "superlevel",
-  "version": "3.0.2",
+  "name": "superlevel-hyper",
+  "version": "3.0.3",
   "description": "a minimalist cli utility for leveldb databases",
   "bin": {
     "superlevel": "cli.js"
@@ -8,7 +8,7 @@
   "author": "max ogden",
   "license": "BSD",
   "dependencies": {
-    "leveldown-hyper-prebuilt": "x.x.x",
+    "leveldown-hyper": "~0.10.2",
     "levelup": "^0.19.0",
     "minimist": "^1.1.0",
     "through2": "^0.6.3"
